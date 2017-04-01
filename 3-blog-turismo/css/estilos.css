@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
+
+nav div a{
+  font-size: 50%
+}
+body{
+  background: url(../img/fondo.jpeg) no-repeat fixed center center;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+.redes{
+  margin-top: 10px
+}
+.galeria{
+  width: 100%
+}
+.gale{
+  margin: 10px
+}
+.perfil{
+  border-bottom: 1px solid black
+}
+.btn{
+  padding: 0 .6rem!important;
+}
+@media all and (max-width: 500px) {
+  .logo{
+    margin-left: 40%!important
+  }
+  .titulo{
+    font-size: 20px;
+  }
+}
