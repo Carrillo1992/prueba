@@ -1,0 +1,41 @@
+body{
+  background: url(../img/fondo.jpg) no-repeat fixed center center;
+  background-size: cover;
+  font-family: 'Lora', serif;
+}
+a{
+  color: orange;
+}
+a:hover{
+  color: red;
+}
+.nav{
+  background: rgba( 169, 50, 38, 0.8);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 25px;
+}
+.img{
+  background-color: #f5cba7;
+  width: 100%;
+  margin: 3px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.buscador{
+  margin-top: 10px
+}
+.conte{
+  background: rgba( 202, 111, 30, 0.8);
+  margin-top: 10px
+}
+.comen{
+  border:1px solid white;
+  border-radius: 10px;
+  margin: 10px!important;
+  background: #fdebd0
+}
+.user{
+  border-radius:50px;
+  width: 50%
+}

@@ -1,18 +1,158 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/foundation.min.css">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <title></title>
   </head>
   <body>
-
-
-
+    <!-- NOTE: Barra de titulo -->
+  <div class="row" style="background: rgba( 250, 215, 160 , 0.7); padding:20px">
+    <div class="columns small-12" style="border-bottom: 1px solid white;">
+    <div class="column large-6 medium-6 small-12" style="border-right: 1px solid white;">
+      <div class="columns small-12">
+        <h1>La cocina de Daniel</h1>
+      </div>
+      <div class="columns small-12 text-right">
+        <h4>"Comer es una necesidad, pero cocinar es un arte"</h4>
+      </div>
+    </div>
+    </div>
+    <div class="row" >
+      <!-- NOTE: Barra de navegacion y historial  -->
+      <div class="column large-4 medium-4 hide-for-small-only nav">
+        <div class="row collapse postfix-radius buscador">
+          <div class="small-11 columns">
+            <input type="text" placeholder="Buscar...">
+          </div>
+          <div class="small-1 columns">
+            <span class="postfix button"><i class="fi-magnifying-glass"></i></span>
+          </div>
+        </div>
+        <div class="column large-12 medium-12 ">
+          <a class="button alert expanded " href="#">Inicio</a>
+          <a class="button alert expanded " href="#">Mis Platos Preferidos</a>
+          <a class="button alert expanded " href="#">Mis Recetas</a>
+        </div>
+        <div class="">
+          <h4>Favoritos:</h4>
+          <div class="column large-4 medium-4">
+            <img src="img/img1.jpg" class="img" alt="">
+            <img src="img/img2.jpg" class="img" alt="">
+          </div>
+          <div class="column large-4 medium-4">
+            <img src="img/img3.jpg" class="img" alt="">
+            <img src="img/img6.jpg" class="img" alt="">
+          </div>
+          <div class="column large-4 medium-4">
+            <img src="img/img5.jpg" class="img" alt="">
+            <img src="img/img4.jpg" class="img" alt="">
+          </div>
+        </div>
+        <div class="column large-12">
+          <h4>Historial</h4>
+          <ul>
+            <li><a href="#">Pollo en salsa pimenton</a></li>
+            <li><a href="#">Dulce de lechoza</a></li>
+            <li><a href="#">Arepa Andina</a></li>
+            <li><a href="#">Patacon</a></li>
+            <li><a href="#">Pollo en salsa</a></li>
+            <li><a href="#">Cachapas</a></li>
+          </ul>
+        </div>
+      </div>
+    <!-- NOTE: Contenido -->
+        <div class="column large-8 medium-8 small-12 conte">
+        <div style="border-bottom:1px solid white;">
+        <h3>Cachapas</h3>
+        <img src="img/img4.jpg" class="img">
+        <p>El maíz, ese mágico y dorado grano, adorado por su origen divino desde tiempos precolombinos, ha sido un importante medio de sustento en Latinoamérica; en Venezuela el maíz se transforma noblemente para convertirse en diferentes platos criollos que siempre halagan el paladar de los venezolanos. Entre estos platos encontramos La Cachapa de budare, afamada dama de la culinaria de nuestro país a la que dedicamos este artículo.</p>
+        <button type="button" class="button alert" name="button">Leer Mas..</button>
+      </div>
+      <div class="row">
+        <div class="column small-12">
+          <h4>Escribenos!</h4>
+          <label>Nombre y apellidos:
+            <input type="text" placeholder="Juan Perez" required aria-describedby="ayudaTexto"/>
+          </label>
+          <label>Email:
+            <input type="email" placeholder="juanperez@email.com" required/>
+          </label>
+        <label>
+          <textarea></textarea>
+        </label>
+        <button type="button" class="button alert float-right" name="button">Comentar <i class="fi-comment-quotes"></i><button>
+      </div>
+      </div>
+      <h4>Comentarios:</h4>
+      <div class="row comen">
+        <div class="columns large-3 medium-3 small-3">
+          <img src="img/user1.png" class="user">
+        </div>
+        <div class="columns large-9 medium-9 small-9">
+          <p style="margin:5%"><strong>Mercedes93:</strong>Que buena receta!</p>
+        </div>
+      </div>
+      <div class="row comen">
+        <div class="columns large-3 medium-3 small-3">
+          <img src="img/user2.png" class="user">
+        </div>
+        <div class="columns large-9 medium-9 small-9">
+          <p style="margin:5%"><strong>Pahancafa:</strong>Rico!!, me recuerda a mi tierra</p>
+        </div>
+      </div>
+    </div>
+    <!-- NOTE: contenido 2 -->
+      <div class="column large-8 medium-8 small-12 conte">
+        <div style="border-bottom:1px solid white;">
+        <h3>Asado Negro</h3>
+        <img src="img/img2.jpg" class="img">
+        <p>El Asado Negro es una verdadera delicia degustarlo, tierno y jugoso, bañado en su salsa oscura. Prepararlo impregnará su hogar de un aroma exquisito y reconfortante. Su elaboración requiere tiempo pero por encima de todo mucho cariño y paciencia, para obtener el resultado deseado, rebanadas de carne suave, tierna, bien cocidas pero jugosas, con una cubierta casi negra, y bañadas en una salsa oscura con un toque entre amargo y dulzón.</p>
+        <button type="button" class="button alert" name="button">Leer Mas..</button>
+      </div>
+      <div class="row">
+        <div class="column small-12">
+          <h4>Escribenos!</h4>
+          <label>Nombre y apellidos:
+            <input type="text" placeholder="Juan Perez" required aria-describedby="ayudaTexto"/>
+          </label>
+          <label>Email:
+            <input type="email" placeholder="juanperez@email.com" required/>
+          </label>
+        <label>
+          <textarea></textarea>
+        </label>
+        <button type="button" class="button alert float-right" name="button">Comentar <i class="fi-comment-quotes"></i><button>
+      </div>
+      </div>
+      <h4>Comentarios:</h4>
+      <div class="row comen">
+        <div class="columns large-3 medium-3 small-3">
+          <img src="img/user2.png" class="user">
+        </div>
+        <div class="columns large-9 medium-9 small-9">
+          <p style="margin:5%"><strong>Maracucho25:</strong>Ya mismo lo hago!</p>
+        </div>
+      </div>
+      <div class="row comen">
+        <div class="columns large-3 medium-3 small-3">
+          <img src="img/user2.png" class="user">
+        </div>
+        <div class="columns large-9 medium-9 small-9">
+          <p style="margin:5%"><strong>Cada511:</strong>Que ricooo!</p>
+        </div>
+        </div>
+      </div>
+    </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+  </div>
+
   </body>
 </html>
