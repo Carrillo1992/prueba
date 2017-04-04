@@ -1,0 +1,35 @@
+body{
+  background: url(../img/fondo.jpeg) fixed center no-repeat;
+  background-size: cover;
+  color: white;
+}
+.barra{
+  background: #611c16
+}
+.logo{
+  width: 40%;
+  margin: 10px
+}
+.boton{
+  background-color:  #b7950b;
+  color: black;
+}
+.boton:hover{
+  background-color: #af601a
+}
+.user{
+  background: white;
+  width: 15%;
+  margin-top: 20px;
+}
+.post{
+  width:100%;
+  margin-top:30px
+}
+.post-conte{
+  border-top: 1px solid white;
+  margin-top: 30px;
+}
+.lupa{
+  padding: 5px
+}

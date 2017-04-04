@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilos.css">
+    <title>Ejercicio bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- NOTE: Barra -->
+    <nav class="navbar">
+      <div class="barra">
+      <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="col-sm-12">
+            <img src="img/logo.png" class="img-responsive logo" alt="logo">
+          </div>
+        </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-lg-push-1" >
+            <h1 style="margin-top:10%">Headshot Music</h1>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-lg-push-3 col-md-push-3 hidden-xs hidden-sm" style="margin-top:10px;">
+          <a type="button" href="" class="clearfix" name="facebook"><img src="img/fb.png" alt="facebook"></a>
+          <a type="button" href="" class="clearfix" name="instagram"><img src="img/ig.png" alt="instagram"></a>
+          <a type="button" href="" class="clearfix" name="twitter"><img src="img/tt.png" alt="twitter"></a>
+        </div>
+        <!-- NOTE: botones-barra -->
+        <div class="btn-group col-sm-12">
+          <button type="button" class="btn btn-ttc col-lg-2 col-md-2 col-sm-12 col-xs-12 boton" name="button"><strong>Inicio</strong></button>
+          <button type="button" class="btn btn-ttc col-lg-2 col-md-2 col-sm-12 col-xs-12 boton" name="button"><strong>Grupos</strong></button>
+          <button type="button" class="btn btn-ttc col-lg-2 col-md-2 col-sm-12 col-xs-12 boton" name="button"><strong>Artistas</strong></button>
+          <button type="button" class="btn btn-ttc col-lg-2 col-md-2 col-sm-12 col-xs-12 boton" name="button"><strong>Top 10</strong></button>
+          <button type="button" class="btn btn-ttc col-lg-2 col-md-2 col-sm-12 col-xs-12 boton" name="button"><strong>Letras</strong></button>
+          <button type="button" class="btn btn-ttc col-lg-2 col-md-2 col-sm-12 col-xs-12 boton" name="button"><strong>Acorde</strong></button>
+        </div>
+      </div>
+      </div>
+      </nav>
+    </div>
+    <!-- NOTE: contenido -->
+    <div class="container" style="background: rgba(0, 0, 0, 0.9)">
+      <div class="row">
+        <!-- NOTE: post 1 -->
+        <div class="col-lg-8 col-md-8 col-sm-12 ">
+          <div class="col-sm-12 text-right">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+          <h3>Megadeth ganan un Grammy mientras suena el “Master Of Puppets”</h3>
+          <p>Como viene siendo habitual desde hace unos años, los premios Grammy arrinconan el rock y el metal de su ceremonia televisada, por lo que los premios de esas categorías se entregan antes de la ceremonia propiamente dicha. Así, ya sabemos que el premio a interpretación metal del año ha ido a parar a Megadeth con “Dystopia”. Algún gracioso debía estar al cargo de la música ya que la banda de Dave Mustaine ha subido al escenario mientras por la megafonía del Staples Center de Los Angeles sonaba el “Master Of Puppets” de Metallica</p>
+        </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <img src="img/post1.jpg" class="post img-responsive" alt="megadeth">
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <img src="img/user.svg" alt="usuario" class="img-circle user col-lg-1 hidden-xs hidden-sm">
+            <div class="form-group col-lg-10">
+              <label for="comment"><h4>Commentarios:</h4></label>
+              <textarea class="form-control" rows="1" id="comment"></textarea>
+            </div>
+          </div>
+        </div>
+        <!-- NOTE: post 2 -->
+        <div class="col-sm-12 text-left">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <img src="img/post2.jpg" class="post img-responsive" alt="megadeth">
+          </div>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <h3>Anal Trump publican un nuevo EP</h3>
+          <p>Anal Trump, la banda humorística de ‘grindcore’ conformada por Travis Ryan (Cattle Decapitation) y Rob Crow (Pinback), ha puesto a la venta un nuevo EP titulado “If You Thought Six Million Jews Was A Lot Of People, You Should’ve Seen My Inauguration”. Todo lo recaudado por las ventas lo destinarán a la Unión Estadounidense por las Libertades Civiles.</p>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+          <img src="img/user.svg" alt="usuario" class="img-circle user col-lg-1 hidden-xs hidden-sm">
+          <div class="form-group col-lg-10">
+            <label for="comment"><h4>Commentarios:</h4></label>
+            <textarea class="form-control" rows="1" id="comment"></textarea>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- NOTE: Buscador -->
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <form class="form-inline" style="margin-top:10px;">
+          <div class="form-group">
+            <label class="sr-only col-sm-10" for="email"></label>
+            <input type="text" class="form-control" placeholder="busqueda rapida" id="email">
+          </div>
+          <button type="submit" class="btn btn-default col-sm-1"><span class="glyphicon glyphicon-search "></span></button>
+        </form>
+        <ul class="list-group hidden-xs hidden-sm" style="color:black; margin-top:10px">
+            <li class="list-group-item">Disturbed</li>
+            <li class="list-group-item">anarchy</li>
+            <li class="list-group-item">nirvana</li>
+            <li class="list-group-item">iron maiden</li>
+            <li class="list-group-item">epica</li>
+            <li class="list-group-item">lamb of gods</li>
+            <li class="list-group-item">Cradle of filth</li>
+            <li class="list-group-item">ac/dc</li>
+            <li class="list-group-item">rolling stone</li>
+            <li class="list-group-item">radio head</li>
+            <li class="list-group-item">interpol</li>
+            <li class="list-group-item">lacrimosa</li>
+            <li class="list-group-item">laguna coil</li>
+            <li class="list-group-item">opus</li>
+        </ul>
+    </div>
+    </div>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </body>
+</html>

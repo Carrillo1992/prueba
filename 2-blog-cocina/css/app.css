@@ -27,7 +27,8 @@ a:hover{
 }
 .conte{
   background: rgba( 202, 111, 30, 0.8);
-  margin-top: 10px
+  margin-top: 10px;
+  border-radius: 10px;
 }
 .comen{
   border:1px solid white;
